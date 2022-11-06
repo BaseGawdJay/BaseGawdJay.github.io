@@ -3,18 +3,44 @@ body {
     font-family:Arial, Arial, Helvetica, sans-serif;
 }
 
-.assignment {
+.assignments {
     display:flex;
-    padding: 10px;
-    background: lightgray;
+    flex-wrap:wrap;
 }
 
+.assignment {
+    width:22%;
+    padding: 20px;
+    margin: 10px;
+    background: lightgray;
+    border-radius: 5px;
+}
+
+.assignment img:hover {
+    border:4px dashed red;
+}
 .assignment img{
     width: 200px;
     padding:10px;
+    border:2px solid red;
+    display:block;
+    margin:auto;
 }
 
 h1 {
     color: blueviolet;
     text-align:center;
+}
+
+h2{
+    text-align:center;
+}
+
+a { 
+    text-decoration: none;
+    color: yellowgreen;
+}
+
+a :hover{
+    color:blueviolet;
 }
