@@ -3,7 +3,7 @@ body {
     font-family:Arial, Arial, Helvetica, sans-serif;
 }
 
-.assignments {
+.assignments{
     display:flex;
     flex-wrap:wrap;
 }
